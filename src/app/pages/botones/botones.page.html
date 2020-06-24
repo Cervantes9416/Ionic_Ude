@@ -1,0 +1,62 @@
+<ion-header>
+    <ion-toolbar>
+        <ion-buttons slot="start">
+            <ion-back-button defaultHref="/"></ion-back-button>
+        </ion-buttons>
+
+        <ion-title>Botones</ion-title>
+
+        <ion-buttons slot="end">
+            <ion-button color="danger">
+                <ion-icon name="heart"></ion-icon>
+            </ion-button>
+
+            <ion-button color="danger">
+                <ion-icon name="star"></ion-icon>
+            </ion-button>
+
+            <ion-button color="danger">
+                <ion-icon name="heart"></ion-icon>
+            </ion-button>
+        </ion-buttons>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <!-- ============================================================== -->
+    <!-- BOTONES NORMALES -->
+    <!-- ============================================================== -->
+    <ion-button size="small" expand="full">Small</ion-button>
+    <ion-button size="default" expand="full">Default</ion-button>
+    <ion-button size="large" expand="full">Large</ion-button>
+
+    <!-- ============================================================== -->
+    <!-- ANCHOR -->
+    <!-- ============================================================== -->
+    <ion-button class="top20" color="tertiary" routerLink="/alert" expand="full">
+        Anchor
+    </ion-button>
+
+    <!-- ============================================================== -->
+    <!-- ion-row  -->
+    <!-- ============================================================== -->
+    <ion-row>
+        <ion-col>
+            <ion-button class="top20" color="tertiary" routerLink="/action-sheet" expand="full">
+                Action Sheet
+            </ion-button>
+        </ion-col>
+        <ion-col>
+            <ion-button class="top20" color="tertiary" routerLink="/avatar" expand="full">
+                Avatar
+            </ion-button>
+        </ion-col>
+    </ion-row>
+
+    <!-- ============================================================== -->
+    <!-- FILL -->
+    <!-- ============================================================== -->
+    <ion-button class="top20" fill="clear">Clear</ion-button>
+    <ion-button class="top20" fill="outline">Outline</ion-button>
+    <ion-button class="top20" fill="solid">Outline</ion-button>
+</ion-content>

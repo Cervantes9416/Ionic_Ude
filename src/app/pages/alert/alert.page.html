@@ -1,0 +1,9 @@
+<app-header [titulo]="titulo || 'Titula Default'"></app-header>
+
+<ion-content padding>
+    <ion-button expand="full" (click)="presentAlert()">Alert!</ion-button>
+
+    <ion-button expand="full" color="warning" (click)="presentAlertConfirm()">Alert!</ion-button>
+    
+    <ion-button expand="full" color="warning" (click)="presentAlertPrompt()">Alert! Tarea!</ion-button>
+</ion-content>
